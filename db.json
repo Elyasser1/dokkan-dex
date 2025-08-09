@@ -1,0 +1,117 @@
+{
+  "lastUpdated": "2025-08-09",
+  "units": [
+    {
+      "id": "lr_teq_goku_vegeta_angel_2025",
+      "name": "Incomparable Radiance Super Saiyan Goku & Super Saiyan Vegeta (Angel)",
+      "rarity": "LR",
+      "type": "TEQ",
+      "roles": ["Damage", "Tank", "Leader"],
+      "leaderSkill": "Fighters Fusionnés / Héros protecteurs – Ki +4, ATK/DEF/HP +170% (ATK +30% sup. si conditions).",
+      "passive": "ATK/DEF +200%, garde active 5 tours, additionnels avec forte chance de critique; peut fusionner sous conditions.",
+      "links": ["Kamehameha", "Prepared for Battle", "Fierce Battle"],
+      "categories": ["Fused Fighters", "Pure Saiyans", "Otherworld Warriors"],
+      "tier": {"source":"Tier list 2025-08-03","rank":"LR S+"},
+      "sources": [
+        {"label":"Tier list","url":"https://example.com/tier-list","type":"tier"},
+        {"label":"Wiki Fandom","url":"https://example.com/wiki/goku-vegeta-angel","type":"wiki"}
+      ]
+    },
+    {
+      "id": "lr_int_beast_gohan",
+      "name": "Ultimate Awakened Power Son Gohan (Beast)",
+      "rarity": "LR",
+      "type": "INT",
+      "roles": ["Nuke", "Leader"],
+      "leaderSkill": "Kamehameha / Hybrides Saiyans – Ki +4, ATK/DEF/HP +170%.",
+      "passive": "Accumulation ATK/DEF, grande chance de critique après transformation Beast.",
+      "links": ["Kamehameha", "Prepared for Battle", "Fierce Battle"],
+      "categories": ["Hybrid Saiyans", "Movie Heroes", "Kamehameha"],
+      "tier": {"source":"Tier list 2025-08-03","rank":"LR S"},
+      "sources": [
+        {"label":"Tier list","url":"https://example.com/tier-list","type":"tier"},
+        {"label":"Wiki Fandom","url":"https://example.com/wiki/beast-gohan","type":"wiki"}
+      ]
+    },
+    {
+      "id": "tur_phy_god_goku",
+      "name": "Transcendent Godly Might Super Saiyan God Goku",
+      "rarity": "TUR",
+      "type": "PHY",
+      "roles": ["Damage", "Esquive"],
+      "leaderSkill": "Pure Saiyans ou Movie Heroes – Ki +3, ATK/DEF/HP +170%.",
+      "passive": "Esquive avec forte chance 7 tours, ATK/DEF +180%, bonus vs Movie Bosses.",
+      "links": ["Godly Power","Prepared for Battle","Fierce Battle"],
+      "categories": ["Pure Saiyans","Movie Heroes","Power Beyond Super Saiyan"],
+      "tier": {"source":"Tier list 2025-08-03","rank":"TUR S+"},
+      "sources": [
+        {"label":"Tier list","url":"https://example.com/tier-list","type":"tier"},
+        {"label":"Wiki Fandom","url":"https://example.com/wiki/god-goku-phy","type":"wiki"}
+      ]
+    },
+    {
+      "id": "lr_tek_ssj3_goku_gt_gga",
+      "name": "Golden Roar Super Saiyan 3 Goku (GT) (Golden Great Ape)",
+      "rarity": "LR",
+      "type": "TEQ",
+      "roles": ["Damage", "Tank"],
+      "leaderSkill": "GT Heroes – Ki +4, ATK/DEF/HP +170%.",
+      "passive": "ATK/DEF +200%, garde sous condition, transformation Golden Great Ape.",
+      "links": ["GT","Prepared for Battle","Fierce Battle"],
+      "categories": ["GT Heroes","Pure Saiyans","Giant Form"],
+      "tier": {"source":"Tier list 2025-08-03","rank":"LR S"},
+      "sources": [
+        {"label":"Tier list","url":"https://example.com/tier-list","type":"tier"},
+        {"label":"Wiki Fandom","url":"https://example.com/wiki/ssj3-goku-gt","type":"wiki"}
+      ]
+    },
+    {
+      "id": "lr_agi_vegeta_trunks_future",
+      "name": "Unbreakable Resolve SSGSS Vegeta & Trunks (Future)",
+      "rarity": "LR",
+      "type": "AGL",
+      "roles": ["Leader", "Tank"],
+      "leaderSkill": "Future Saga / Bond of Parent and Child – Ki +3, ATK/DEF/HP +170% (+30% si conditions).",
+      "passive": "ATK/DEF +200%, réduction de dégâts et garde conditionnelle.",
+      "links": ["Super Saiyan","Royal Lineage","Fierce Battle"],
+      "categories": ["Future Saga","Bond of Parent and Child","Joined Forces"],
+      "tier": {"source":"Nouveautés 2025-08","rank":"LR S~S+"},
+      "sources": [
+        {"label":"Annonce","url":"https://example.com/news/vegeta-trunks-future","type":"news"},
+        {"label":"Wiki Fandom","url":"https://example.com/wiki/vegeta-trunks-future","type":"wiki"}
+      ]
+    },
+    {
+      "id": "lr_str_gohan_teen_dokkanfest",
+      "name": "Unyielding Potential Son Gohan (Teen)",
+      "rarity": "LR",
+      "type": "STR",
+      "roles": ["Leader", "Damage"],
+      "leaderSkill": "Kamehameha / Hybrid Saiyans – Ki +4, ATK/DEF/HP +170%.",
+      "passive": "ATK/DEF +180%, additionnel garanti après super, bonus avec alliés Kamehameha.",
+      "links": ["Gaze of Respect","Prepared for Battle","Fierce Battle"],
+      "categories": ["Hybrid Saiyans","Kamehameha","Goku's Family"],
+      "tier": {"source":"Dokkan Fest 2025-08-07","rank":"LR S"},
+      "sources": [
+        {"label":"Bannière","url":"https://example.com/dokkanfest/gohan-teen-2025","type":"news"},
+        {"label":"Wiki Fandom","url":"https://example.com/wiki/gohan-teen-2025","type":"wiki"}
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "news_2025_08_07_df_gohan_teen",
+      "title": "Dokkan Fest — Son Gohan (Teen) [LR] en vedette",
+      "date": "2025-08-07",
+      "description": "Bannière active avec leader Kamehameha/Hybrides; très bon damage dealer.",
+      "url": "https://example.com/dokkanfest/gohan-teen-2025"
+    },
+    {
+      "id": "news_2025_08_01_lr_vegeta_trunks_future",
+      "title": "Nouveau LR — SSGSS Vegeta & Trunks (Future)",
+      "date": "2025-08-01",
+      "description": "Excellent duo pour Future Saga et équipes parents/enfants.",
+      "url": "https://example.com/news/vegeta-trunks-future"
+    }
+  ]
+}
