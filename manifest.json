@@ -1,0 +1,10 @@
+{
+  "name": "Dokkan Dex (PWA)",
+  "short_name": "DokkanDex",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000"
+  /* Astuce : on pourra ajouter un tableau "icons" plus tard quand tu auras mis
+     assets/icon-192.png et assets/icon-512.png dans le dépôt. */
+}
