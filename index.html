@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dokkan Dex</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header><h1>Dokkan Dex</h1></header>
+
+  <nav class="tabbar">
+    <button id="tab-top" class="active">Top</button>
+    <button id="tab-cartes">Cartes</button>
+    <button id="tab-news">Nouveautés</button>
+  </nav>
+
+  <main class="container">
+    <section id="view-top" class="view">
+      <div class="top-filters">
+        <label>Rareté</label>
+        <select id="top-rarity">
+          <option value="LR">LR</option>
+          <option value="TUR">TUR</option>
+        </select>
+      </div>
+      <div id="top-list" class="grid"></div>
+    </section>
+
+    <section id="view-cartes" class="view" style="display:none;">
+      <input id="search" placeholder="Rechercher par nom…">
+      <div class="row">
+        <div class="col">
+          <label>Rareté</label>
+          <select id="filter-rarity">
+            <option value="">Toutes</option><option>SSR</option><option>UR</option><option>TUR</option><option>LR</option>
+          </select>
+        </div>
+        <div class="col">
+          <label>Type</label>
+          <select id="filter-type">
+            <option value="">Tous</option><option>AGL</option><option>TEQ</option><option>INT</option><option>STR</option><option>PHY</option>
+          </select>
+        </div>
+      </div>
+      <div id="units-list" class="grid"></div>
+    </section>
+
+    <section id="view-news" class="view" style="display:none;">
+      <div id="news-list"></div>
+    </section>
+
+    <div id="modal">
+      <div class="modal-inner">
+        <button id="modal-close">Fermer</button>
+        <div id="modal-content"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js');
+      });
+    }
+  </script>
+</body>
+</html>
